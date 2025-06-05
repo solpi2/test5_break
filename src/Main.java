@@ -1,15 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int score = 61;
+        String color = "빨강";
 
-        String result;
-
-        if (score >= 60) {
-            result = "합격";
+        if (color == "빨강") {
+            System.out.println("빨강");
+        } else if (color == "파랑") {
+            System.out.println("파랑");
         } else {
-            result = "불합격";
+            System.out.println("보라");
         }
-
-        System.out.println("결과 : " + result);
     }
 }
