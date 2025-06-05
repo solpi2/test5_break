@@ -2,8 +2,14 @@ public class Main {
     public static void main(String[] args) {
         int score = 61;
 
-        String result = (score > 60) ? "통과" : "탈락";
+        String result;
 
-        System.out.println("결과: " + result);
+        if (score >= 60) {
+            result = "합격";
+        } else {
+            result = "불합격";
+        }
+
+        System.out.println("결과 : " + result);
     }
 }
